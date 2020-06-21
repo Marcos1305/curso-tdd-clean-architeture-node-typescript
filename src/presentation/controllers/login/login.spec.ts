@@ -7,7 +7,7 @@ import {
   ok
 } from '../../helpers/http/http-helper'
 import { HttpRequest, Authentication } from './login-protocols'
-import { Validation } from '../../helpers/validators/validation'
+import { Validation } from '../../protocols/validation'
 
 const makeValidation = (): Validation => {
   class ValidationStub implements Validation {
